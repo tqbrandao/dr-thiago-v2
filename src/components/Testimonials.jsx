@@ -5,7 +5,7 @@ import SliderTestimonials from "./UI/Slider/SliderTestimonials";
 
 function Testimonials() {
   return (
-    <section className={classes["section-testimonials"]}>
+    <section className={classes["section-testimonials"]} id="testimonials">
       <div className={classes.testimonials}>
         <h1 className={classes["testimonials-heading"]}>
           <HiUserGroup />
