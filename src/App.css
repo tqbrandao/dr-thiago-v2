@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+/* 
+
+Paleta meio integra:
+#FF6700
+#EBEBEB
+#C0C0C0
+#3A6EA5
+#004E98
+
+
+Cor da NavBAR
+#212529
+
+
+
+Cores da paleta
+
+Azul escuro: #010b26
+Azul medio: #54a1bf
+Azul claro: #a6e4f1
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
+  line-height: 1;
+  font-weight: 400;
+  color: #222;
+  overflow-x: hidden;
+
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* 
+  background-image: linear-gradient(
+    to right top,
+    #ebebeb,
+    #e3e3e3,
+    #dbdbdb,
+    #d3d3d3,
+    #cbcbcb,
+    #c0bfc5,
+    #b5b4bf,
+    #a9a9b9,
+    #9499b4,
+    #7c89af,
+    #607baa,
+    #3a6ea5
+  ); */
+}
+
+.layout {
+  font-size: 1.8rem;
+}
+
+/* --------------- NAVBAR ------------------ */
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8rem;
+  padding: 0 2rem;
+  /* background-color: #fff; */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin: 0 2rem;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: #ff6700;
+  transition: all 0.5s;
+}
+
+.nav-logo {
+  width: 12rem;
+  /* width: 6rem; */
+}
+
+header .nav-btn {
+  padding: 0.5rem;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 2.8rem;
+}
+
+/* --------------- MEDIA QUERIES -------------- */
+
+@media (max-width: 34em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 75em) {
+  .nav-header {
+    justify-content: space-between;
+  }
+
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
+    /* background-color: #fff; */
+    background: linear-gradient(to right, #243b55, #141e30);
+    opacity: 0.99;
+    transition: 1s;
+    transform: translateY(-100vh);
+    z-index: 0;
+  }
+
+  header .responsive_nav {
+    transform: none;
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  nav a {
+    font-size: 2.2rem;
+  }
+}

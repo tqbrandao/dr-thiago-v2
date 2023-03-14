@@ -1,0 +1,36 @@
+.btn {
+  padding: 2.2rem 2rem;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  border-radius: 10px;
+  background-color: #ff6700;
+  color: #fff;
+  box-shadow: 0px 0px 12px -2px rgb(0, 0, 0, 0.4);
+  transition: all 0.3s;
+  border: none;
+  display: flex;
+  gap: 1.6rem;
+  cursor: pointer;
+  align-items: center;
+}
+
+.btn:hover {
+  background-color: #ff6700;
+  transform: translateY(-7px);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.whats-logo {
+  font-size: 2.8rem;
+}
+
+@media (max-width: 34em) {
+  .btn {
+    margin: 0 auto;
+    background-color: #ff6700;
+    font-size: 2rem;
+  }
+}

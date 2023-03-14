@@ -1,0 +1,75 @@
+[
+  {
+    "disease": "Depressão",
+    "description": "É um transtorno que afeta milhões de pessoas em todo o mundo. Ela pode se manifestar de diferentes maneiras, mas geralmente inclui sentimentos de tristeza importante, desesperança e desinteresse em atividades. Além disso, pode causar insônia, perda ou ganho de peso e dificuldade de concentração."
+  },
+
+  {
+    "disease": "Transtorno bipolar",
+    "description": "É um distúrbio do humor que se caracteriza por episódios de euforia (mania) e tristeza (depressão). Na fase de mania, a pessoa pode sentir-se extremamente feliz, com aumento de energia e com uma sensação de poder. No episódio depressivo, a pessoa pode sentir-se triste, sem prazer e pode ter dificuldade para se concentrar e realizar tarefas diárias."
+  },
+  {
+    "disease": "Transtorno de ansiedade generalizada",
+    "description": "Se caracteriza por preocupações excessivas e exageradas sobre vários aspectos da vida, que ocorrem frequentemente e durante um período prolongado de tempo. Pessoas com TAG podem ter dificuldade para controlar essas preocupações e podem sentir-se constantemente tensas e nervosas."
+  },
+
+  {
+    "disease": "Transtorno de pânico",
+    "description": "É caracterizado por ataques repentinos e inesperados de medo intenso e desespero, conhecidos como ataques de pânico. Durante um ataque de pânico, a pessoa pode sentir sintomas físicos intensos, como batimentos cardíacos acelerados, sudorese, tremores, tontura, falta de ar e dor no peito. A pessoa começa a ter medo de ter novos ataques."
+  },
+
+  {
+    "disease": "Esquizofrenia",
+    "description": "A esquizofrenia é um transtorno mental grave que afeta a forma como uma pessoa pensa, se sente e se comporta. As principais características são alucinações, delírios, pensamento e comportamento desorganizados. "
+  },
+
+  {
+    "disease": "Transtorno obsessivo compulsivo (TOC)",
+    "description": "O transtorno obsessivo-compulsivo é caracterizado por pensamentos obsessivos e comportamentos compulsivos repetitivos, que tomam muito tempo da vida da pessoa. Os sintomas podem incluir medos exagerados, pensamentos fixos e ações repetitivas."
+  },
+
+  {
+    "disease": "Dependência química",
+    "description": "A dependência química, hoje chamada de transtorno por uso de substâncias, é um transtorno mental caracterizado por abuso e incapacidade de controlar o consumo de alguma substância psicoativa, como álcool, cocaína, crack, maconha e alguns tipos de medicamentos. Tolerância e abstinência são sintomas presentes."
+  },
+
+  {
+    "disease": "Anorexia nervosa",
+    "description": "A anorexia nervosa é um transtorno alimentar caracterizado por um peso corporal significativamente baixo em decorrência de um padrão persistente de comportamentos como restrição importante da alimentação, indução de vômitos, uso de purgativos ou atividade física em excesso. "
+  },
+
+  {
+    "disease": "Bulimia nervosa",
+    "description": "A bulimia nervosa é um transtorno alimentar caracterizado por episódios recorrentes de compulsão alimentar seguidos de comportamentos compensatórios, como vômitos auto-induzidos, uso de laxantes e jejum. As pessoas com bulimia nervosa tem um peso normal ou acima do peso. "
+  },
+
+  {
+    "disease": "Demências",
+    "description": "As demências são caracterizadas por declínio importante das capacidades cognitivas de um indivíduo em relação ao seu nível anterior. Esse declínio envolve piora da memória, da comunicação e do pensamento. A forma mais comum de demência é a doença de Alzheimer."
+  },
+
+  {
+    "disease": "Transtorno de estresse pós-traumático",
+    "description": "O Transtorno de Estresse Pós-Traumático (TEPT) é caracterizado por flashbacks, pesadelos e evitação de situações que ocorrem após o indivíduo ser exposto a um evento traumático grave, como desastres naturais, violência sexual, acidentes impactantes, tortura, dentre outros."
+  },
+
+  {
+    "disease": "Insônia",
+    "description": "A insônia é caracterizada por dificuldade para iniciar ou manter o sono, ou por presença de sono de baixa qualidade que resulta em comprometimentos diurnos, como se sentir fatigado, irritado, com problemas de concentração, dentre outros prejuízos, no dia seguinte."
+  },
+
+  {
+    "disease": "Transtorno de compulsão alimentar",
+    "description": "É caracterizado por episódios compulsivos de comer grandes quantidades de comida, num curto intervalo de tempo, seguidos de sentimentos de culpa e vergonha. As pessoas com TCA podem sentir-se fora de controle e ter dificuldade para parar de comer, mesmo quando já estão cheias."
+  },
+
+  {
+    "disease": "TDAH",
+    "description": "O transtorno de déficit de atenção e hiperatividade é um transtorno do neurodesenvolvimento caracterizado por dificuldades na manutenção da atenção, hiperatividade e impulsividade. É um transtorno que começa na infância, mas pode se manter na idade adulta."
+  },
+
+  {
+    "disease": "Outros",
+    "description": "Outros transtornos incluem transtornos da personalidade, transtornos dissociativos, transtornos de sintomas somáticos, catatonia, etc."
+  }
+]
