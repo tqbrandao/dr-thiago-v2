@@ -1,6 +1,4 @@
-.section-map {
-  /* border-top: 1px solid rgba(235, 235, 235, 0.5); */
-
+.section-map { 
   padding: 6.4rem 0 12rem 0;
   background-color: #ebebeb;
 }
@@ -17,8 +15,7 @@
 }
 
 .map-heading {
-  font-weight: 700;
-  /* color: #fff; */
+  font-weight: 700; 
   font-size: 5.2rem;
   line-height: 1.05;
   display: flex;
@@ -28,16 +25,14 @@
 
 .map-description {
   font-size: 2rem;
-  line-height: 1.8;
-  /* margin-bottom: 0.8rem; */
+  line-height: 1.8;  
 }
 
 .contact {
   display: flex;
   margin: 0 auto;
   gap: 15rem;
-  justify-content: space-between;
-  /* justify-content: space-around; */
+  justify-content: space-between; 
 }
 
 .map-container {
@@ -56,22 +51,18 @@
 }
 .info-header {
   font-weight: 500;
-  margin-bottom: 3rem;
-  /* color: #ff6700; */
+  margin-bottom: 3rem;  
 }
 
-.map-pin {
-  /* width: 1.5rem; */
+.map-pin {  
   font-size: 6rem;
 }
 
-.map-phone {
-  /* width: 1.5rem; */
+.map-phone {  
   font-size: 2.5rem;
 }
 
-.map-mail {
-  /* width: 1.5rem; */
+.map-mail {  
   font-size: 2.7rem;
 }
 
@@ -112,14 +103,12 @@
     flex-direction: column;
     margin: 0 auto;
     gap: 4.6rem;
-    justify-content: space-between;
-    /* justify-content: space-around; */
+    justify-content: space-between;    
   }
 
   .map-heading {
     font-size: 4.2rem;
-    gap: 2rem;
-    /* justify-content: center; */
+    gap: 2rem;    
   }
 
   .map-header {

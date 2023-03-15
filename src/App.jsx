@@ -10,7 +10,6 @@ import Testimonials from "./components/Testimonials";
 import Clinic from "./components/Clinic";
 
 function App() {
-  // const [isDesktop, setDesktop] = useState(window.innerWidth > 1450);
   const [isMobile, setMobile] = useState(window.innerWidth < 544);
 
   const updateMedia = () => {

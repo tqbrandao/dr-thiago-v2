@@ -28,18 +28,12 @@
   gap: 2.8rem;
 }
 
-.heading-text {
-  /* padding-left: 2.6rem; */
-}
-
 .heading-highlight {
-  color: #ff6700;
-  /* color: #cc5200; */
+  color: #ff6700;  
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 0.25rem;
-  font-size: 1.8rem;
-  /* font-style: italic; */
+  font-size: 1.8rem; 
 }
 
 .testimonials-description {

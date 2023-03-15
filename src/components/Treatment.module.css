@@ -41,8 +41,7 @@
 
 .item {
   background: #ebebeb;
-  border-radius: 10px;
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  border-radius: 10px;  
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   margin-bottom: 0.8rem;
   padding: 1.4rem 3rem;
@@ -105,8 +104,6 @@
   }
 
   .title h2 {
-    font-size: 1.7rem;
-    /* color: #e65d00; */
-    /* letter-spacing: 0.2rem;  */
+    font-size: 1.7rem;    
   }
 }

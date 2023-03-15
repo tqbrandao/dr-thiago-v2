@@ -1,6 +1,5 @@
 .section-clinic {
-  padding: 6.4rem 0 8.4rem 0;
-  /* background-color: #ebebeb; */
+  padding: 6.4rem 0 8.4rem 0;  
   background-color: #fff;
 }
 
@@ -21,8 +20,7 @@
 }
 
 .clinic-heading {
-  font-weight: 700;
-  /* color: #010b26; */
+  font-weight: 700;  
   color: #212529;
   font-size: 5.2rem;
   line-height: 1.05;
@@ -35,24 +33,23 @@
 }
 
 .heading-highlight {
-  color: #ff6700;
-  /* color: #cc5200; */
+  color: #ff6700;  
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.25rem;
   font-size: 1.8rem;
-  /* font-style: italic; */
+  
 }
 
 .clinic-description {
   font-size: 2rem;
   line-height: 1.8;
-  /* margin-bottom: 4.8rem; */
+  
 }
 
 .clinic-img-box {
   text-align: center;
-  /* padding-right: 9.6rem; */
+  
 }
 
 .clinic-img {
@@ -61,8 +58,7 @@
 
 .clinic-text-box {
   display: flex;
-  flex-direction: column;
-  /* justify-content: space-around; */
+  flex-direction: column;  
   justify-content: center;
   gap: 2.2rem;
 }
@@ -115,12 +111,12 @@
 
   .clinic-heading {
     font-size: 4.2rem;
-    /* justify-content: center; */
+    
   }
 
   .heading-highlight {
     text-align: center;
-    /* padding-left: 2rem; */
+    
   }
 
   .clinic-description {

@@ -20,9 +20,6 @@ function Hero() {
             </p>
           </p>
           <Button>Agendar Consulta</Button>
-          {/* <Button variant="dark" className={classes.btnXl}>
-            Agendar Consulta
-          </Button>{" "} */}
         </div>
         <div className={classes["hero-img-box"]}>
           <img

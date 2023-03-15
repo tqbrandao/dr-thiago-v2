@@ -18,7 +18,7 @@ function Clinic() {
           <div className={classes["clinic-text-box"]}>
             <h2 className={classes["heading-highlight"]}>A clínica</h2>
             <p className={classes["clinic-description"]}>
-              Localizado em região privilegiada em São José do Rio Preto,
+              Localizada em região privilegiada em São José do Rio Preto,
               próximo ao Plaza Avenida Shopping. Contamos com estacionamento
               próprio, gratuito, com acessibilidade e conforto. Ambiente
               acolhedor, aconchegante, calmo e adequado para realização de
