@@ -2,7 +2,7 @@ import React from "react";
 import { useRef } from "react";
 import "../../App.css";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../../assets/logo-white2.png";
+import logo from "../../assets/logo.png";
 
 export default function Header() {
   const navRef = useRef();

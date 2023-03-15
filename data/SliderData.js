@@ -1,8 +1,8 @@
-import img0 from "../src/assets/clinica/img-0.jpg";
-import img1 from "../src/assets/clinica/img-1.jpg";
-import img2 from "../src/assets/clinica/img-2.jpg";
-import img3 from "../src/assets/clinica/img-3.jpg";
-import img4 from "../src/assets/clinica/img-4.jpg";
+import img0 from "../src/assets/clinica/img-00.jpg";
+import img1 from "../src/assets/clinica/img-01.jpg";
+import img2 from "../src/assets/clinica/img-02.jpg";
+import img3 from "../src/assets/clinica/img-03.jpg";
+import img4 from "../src/assets/clinica/img-04.jpg";
 
 export const SliderData = [
   {

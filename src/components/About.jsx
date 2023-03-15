@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./About.module.css";
 import { HiAcademicCap } from "react-icons/hi2";
-import aboutImg from "../assets/about-img.png";
+import aboutImg from "../assets/consultorio.jpg";
 
 function About() {
   return (
