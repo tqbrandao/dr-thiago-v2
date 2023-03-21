@@ -13,10 +13,11 @@ function MyWork() {
           <span className={classes["heading-text"]}>O que faço</span>
         </h1>
         <p className={classes["work-description"]}>
-          A Psiquiatria é a especialidade da medicina responsável pelo
-          acompanhamento dos Transtornos Mentais. Nós, médicos psiquiatras,
-          passamos por anos de treinamento intensivo para que sejamos capazes de
-          diagnosticar e tratar de forma adequada pessoas que necessitem.
+          A psiquiatria é a especialidade da medicina responsável pelo
+          acompanhamento de pessoas em sofrimento mental. Nós, médicos
+          psiquiatras, passamos por anos de treinamento intensivo para que
+          sejamos capazes de diagnosticar e tratar de forma adequada pessoas que
+          necessitem.
         </p>
         <p className={classes["work-description"]}>
           Pessoalmente, acredito numa psiquiatria aprofundada, na qual quero

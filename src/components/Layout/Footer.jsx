@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className={classes.footer}>
       <div className={classes["footer-container"]}>
         <div className={classes["logo-col"]}>
-          <a href="#" class="footer-logo">
+          <a href="#" className="footer-logo">
             <img
               src={logo}
               alt="Logo Dr. Thiago"

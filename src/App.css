@@ -1,9 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
 /* 
@@ -42,7 +36,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;  
+  font-family: "Open Sans", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #222;
@@ -58,7 +52,7 @@ body {
     to right,
     #243b55,
     #141e30
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .layout {
@@ -72,7 +66,7 @@ body {
   align-items: center;
   justify-content: space-around;
   height: 8rem;
-  padding: 0 2rem; 
+  padding: 0 2rem;
 }
 
 .navbar {
@@ -93,7 +87,7 @@ nav a:hover {
 }
 
 .nav-logo {
-  width: 14rem; 
+  width: 14rem;
 }
 
 header .nav-btn {
@@ -136,7 +130,7 @@ header .nav-btn {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 3.5rem;    
+    gap: 3.5rem;
     background: linear-gradient(to right, #243b55, #141e30);
     opacity: 0.99;
     transition: 1s;

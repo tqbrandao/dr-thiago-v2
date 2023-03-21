@@ -21,7 +21,7 @@
 }
 
 .about-heading {
-  font-weight: 700;  
+  font-weight: 700;
   color: #212529;
   font-size: 5.2rem;
   line-height: 1.05;
@@ -34,26 +34,26 @@
 }
 
 .heading-highlight {
-  color: #ff6700;  
+  color: #ff6700;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.25rem;
-  font-size: 1.8rem;  
+  font-size: 1.8rem;
 }
 
 .about-description {
   font-size: 2rem;
-  line-height: 1.8;  
+  line-height: 1.8;
 }
 
 .about-img-box {
-  text-align: center;  
+  text-align: center;
 }
 
 .about-img {
   width: 70%;
   border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);  
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);   */
 }
 
 .about-text-box {
@@ -83,7 +83,7 @@
   }
 
   .about-heading {
-    font-size: 4.2rem;    
+    font-size: 4.2rem;
   }
 
   .heading-highlight {

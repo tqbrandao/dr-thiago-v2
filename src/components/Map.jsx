@@ -21,9 +21,9 @@ function Map() {
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.028079110174!2d-49.38877828876647!3d-20.830572580689427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bdb33952917ec5%3A0x2b2f70fb0c449c27!2sDr.%20Thiago%20Queiroz%20Brand%C3%A3o%20-%20M%C3%A9dico%20Psiquiatra!5e0!3m2!1spt-BR!2sbr!4v1673400989124!5m2!1spt-BR!2sbr"
               width="100%"
               height="70%"
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
           <div className={classes["info-container"]}>

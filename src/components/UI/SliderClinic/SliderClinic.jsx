@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { SliderData } from "../../../../data/sliderData";
+import { SliderData } from "../../../../data/SliderData";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 import classes from "./SliderClinic.module.css";
 
@@ -34,7 +34,7 @@ function SliderClinic() {
             {index === current && (
               <img
                 src={slide.image}
-                alt="Random Alt Text"
+                alt={slide.alt}
                 className={classes.image}
               ></img>
             )}

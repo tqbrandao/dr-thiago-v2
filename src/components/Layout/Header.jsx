@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     <header className="nav-header">
-      <a href="#" class="footer-logo">
+      <a href="#" className="footer-logo">
         <img src={logo} alt="Logo Dr. Thiago" className="nav-logo" />
       </a>
       <nav className="navbar" ref={navRef}>

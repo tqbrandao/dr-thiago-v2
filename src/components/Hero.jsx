@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Hero.module.css";
-import heroImg from "../assets/hero-transparent.png";
+import heroImg from "../assets/hero-chair.jpg";
 import Button from "./UI/Button";
 
 function Hero() {
@@ -14,10 +14,7 @@ function Hero() {
           <p className={classes["hero-description"]}>
             Atendimentos em Psiquiatria em São José do Rio Preto – SP. Médico
             pela Universidade Federal de Uberlândia e Psiquiatra pela
-            Universidade Federal de Goiás.
-            <p className={classes["hero-description"]}>
-              CRM SP 221494 / RQE 92504
-            </p>
+            Universidade Federal de Goiás. <br /> CRM SP 221494 / RQE 92504
           </p>
           <Button>Agendar Consulta</Button>
         </div>

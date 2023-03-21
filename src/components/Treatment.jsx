@@ -26,7 +26,7 @@ function Treatment() {
           <div className={classes.accordion}>
             {diseasesData.map((dis, i) => {
               return (
-                <div className={classes.item}>
+                <div className={classes.item} key={i}>
                   <div className={classes.title} onClick={() => toggle(i)}>
                     <h2>{dis.disease}</h2>
                     <span>{selected === i ? "-" : "+"}</span>

@@ -6,12 +6,13 @@ function Card(props) {
     <div className={classes.card}>
       <div className={classes["card-header"]}>
         <div className={classes["card-img"]}>
-          <img src={props.image}></img>
+          <img src={props.image} alt="Paciente do Dr. Thiago"></img>
         </div>
         <div className={classes["header-details"]}>
           <div className={classes["logo-central"]}>
             <div className={classes["header-name"]}>{props.name}</div>
             <img
+              alt="Google Logo"
               className={classes["google-logo"]}
               src="https://cdn.trustindex.io/assets/platform/Google/icon.svg"
             ></img>
@@ -21,22 +22,27 @@ function Card(props) {
       </div>
       <div className={classes.stars}>
         <img
+          alt="Star"
           className={classes.star}
           src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg"
         ></img>
         <img
+          alt="Star"
           className={classes.star}
           src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg"
         ></img>
         <img
+          alt="Star"
           className={classes.star}
           src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg"
         ></img>
         <img
+          alt="Star"
           className={classes.star}
           src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg"
         ></img>
         <img
+          alt="Star"
           className={classes.star}
           src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg"
         ></img>
