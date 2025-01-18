@@ -19,8 +19,8 @@ Modal.setAppElement("#root")
 const Form = ({ onCloseModal }) => {
   const [submit, setSubmit] = useState(false)
   const [formData, setFormData] = useState({
-    "entry.1369649213": "",
-    "entry.322769045": ""
+    "entry.2049192406": "",
+    "entry.597452581": ""
   })
 
   const sanitizeInput = (value) => {
@@ -42,7 +42,8 @@ const Form = ({ onCloseModal }) => {
     onCloseModal()
     window.open("https://api.whatsapp.com/send?phone=5517996189285&text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20consulta%20com%20Dr.%20Thiago%20Brand%C3%A3o.", "_blank")
 
-    let url = `https://docs.google.com/forms/u/0/d/e/1FAIpQLSepPWp-3JllDNp7tu6Yxt3bEWTZP0fvKR21fIlHYl4ZU7sJEQ/formResponse?entry.1369649213=${formData["entry.1369649213"]}&entry.322769045=${formData["entry.322769045"]}`
+    // let url = `https://docs.google.com/forms/u/0/d/e/1FAIpQLSepPWp-3JllDNp7tu6Yxt3bEWTZP0fvKR21fIlHYl4ZU7sJEQ/formResponse?entry.1369649213=${formData["entry.1369649213"]}&entry.322769045=${formData["entry.322769045"]}`
+    let url = `https://docs.google.com/forms/u/0/d/e/1FAIpQLScFTdwglt5c2BpyMZgXPnozgJSlwuNlAZSa21fYtcWh3dmc0A/formResponse?entry.2049192406=${formData["entry.2049192406"]}&entry.597452581=${formData["entry.597452581"]}`
 
     const res = await fetch(url, {
       method: "POST",
@@ -59,9 +60,9 @@ const Form = ({ onCloseModal }) => {
       <div>
         <form onSubmit={handleSubmit} target="_self">
           <div className={classes.inputBox}>
-            <input required placeholder="Seu nome" type="text" name="entry.1369649213" onChange={handleInputData("entry.1369649213")} value={formData["entry.1369649213"]} autoComplete={false} />
+            <input required placeholder="Seu nome" type="text" name="entry.2049192406" onChange={handleInputData("entry.2049192406")} value={formData["entry.2049192406"]} autoComplete={false} />
 
-            <input required placeholder="(DDD) + Número" type="tel" name="entry.322769045" onChange={handleInputData("entry.322769045")} value={formData["entry.322769045"]} autoComplete={false} />
+            <input required placeholder="(DDD) + Número" type="tel" name="entry.597452581" onChange={handleInputData("entry.597452581")} value={formData["entry.597452581"]} autoComplete={false} />
           </div>
           <div className={classes.btnBox}>
             <button type="submit" className={classes.modalBtn}>
