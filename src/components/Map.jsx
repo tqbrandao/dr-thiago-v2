@@ -1,9 +1,9 @@
-import React from "react";
-import classes from "./Map.module.css";
-import { HiChatBubbleOvalLeftEllipsis } from "react-icons/hi2";
-import { HiMapPin } from "react-icons/hi2";
-import { HiPhone } from "react-icons/hi2";
-import { HiMail } from "react-icons/hi";
+import React from "react"
+import classes from "./Map.module.css"
+import { HiChatBubbleOvalLeftEllipsis } from "react-icons/hi2"
+import { HiMapPin } from "react-icons/hi2"
+import { HiPhone } from "react-icons/hi2"
+import { HiMail } from "react-icons/hi"
 
 function Map() {
   return (
@@ -35,20 +35,16 @@ function Map() {
               >
                 <p className={classes["info-paragraph"]}>
                   <HiMapPin className={classes["map-pin"]} />
-                  Multi Clínica – Av. Romeu Strazzi, 1445, Bairro Jardim
-                  Walkíria. São José do Rio Preto – São Paulo.
+                  Multi Clínica – Av. Romeu Strazzi, 1445, Bairro Jardim Walkíria. São José do Rio Preto – São Paulo.
                 </p>
               </a>
-              <a className={classes["info-links"]} href="tel:+5517996189285">
+              <a className={classes["info-links"]} href="tel:+5517981547840">
                 <p className={classes["info-paragraph"]}>
                   <HiPhone className={classes["map-phone"]} />
-                  (17) 9 9618-9285
+                  (17) 9 8154-7840
                 </p>
               </a>
-              <a
-                className={classes["info-links"]}
-                href="mailto:thiago_qb@hotmail.com"
-              >
+              <a className={classes["info-links"]} href="mailto:thiago_qb@hotmail.com">
                 <p className={classes["info-paragraph"]}>
                   <HiMail className={classes["map-mail"]} />
                   thiago_qb@hotmail.com
@@ -59,7 +55,7 @@ function Map() {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default Map;
+export default Map
