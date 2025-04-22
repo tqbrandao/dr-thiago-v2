@@ -40,7 +40,7 @@ const Form = ({ onCloseModal }) => {
     e.preventDefault()
     setSubmit(true)
     onCloseModal()
-    window.open("https://api.whatsapp.com/send?phone=5517981547840&text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20consulta%20com%20Dr.%20Thiago%20Brand%C3%A3o.", "_blank")
+    window.open("https://api.whatsapp.com/send?phone=5517996611685&text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20consulta%20com%20Dr.%20Thiago%20Brand%C3%A3o.", "_blank")
 
     // let url = `https://docs.google.com/forms/u/0/d/e/1FAIpQLSepPWp-3JllDNp7tu6Yxt3bEWTZP0fvKR21fIlHYl4ZU7sJEQ/formResponse?entry.1369649213=${formData["entry.1369649213"]}&entry.322769045=${formData["entry.322769045"]}`
     let url = `https://docs.google.com/forms/u/0/d/e/1FAIpQLScFTdwglt5c2BpyMZgXPnozgJSlwuNlAZSa21fYtcWh3dmc0A/formResponse?entry.2049192406=${formData["entry.2049192406"]}&entry.597452581=${formData["entry.597452581"]}`

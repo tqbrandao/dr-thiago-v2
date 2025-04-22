@@ -38,10 +38,10 @@ function Map() {
                   Multi Clínica – Av. Romeu Strazzi, 1445, Bairro Jardim Walkíria. São José do Rio Preto – São Paulo.
                 </p>
               </a>
-              <a className={classes["info-links"]} href="tel:+5517981547840">
+              <a className={classes["info-links"]} href="tel:+5517996611685">
                 <p className={classes["info-paragraph"]}>
                   <HiPhone className={classes["map-phone"]} />
-                  (17) 9 8154-7840
+                  (17) 9 9661-1685
                 </p>
               </a>
               <a className={classes["info-links"]} href="mailto:thiago_qb@hotmail.com">
